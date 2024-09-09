@@ -5,14 +5,15 @@ body {
 }
 
 header {
-    margin-top: -60px;
+    height: 60px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: auto;
 }
 
 header img {
-    width: 250px;
+    width: 150px;
     float: left;
 }
 
@@ -28,6 +29,14 @@ main {
     /*display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-gap: 10px;*/
+    
+   /* width: 100%;
+    height: max-content;*/
+
+    /*Testasndo responsividade*/
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .background {
@@ -68,10 +77,10 @@ main p {
 }
 
 .line {
-    position: absolute;
-    top: 105%;
-    left: 30%;
-    border: 1px solid #CBC6C6;
+    margin: auto;
+    align-items: center;
+    border: px solid #aea9a9;
+
 }
 
 .container {
@@ -82,13 +91,19 @@ main p {
 
 }
 
-.item1 {
-    width: 1000px;
-    height: 500px;
-    background-color: #F15F61;
+.container2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    justify-content: space-between;
 }
 
-.item1 img {
+.item1 {
+    width: 1000px;
+}
+
+img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -96,4 +111,110 @@ main p {
 
 .item {
     border: 1px solid black;
+}
+
+.item>div {
+    /* PRODUTOS EM DESTAQUE */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: normal;
+    width: 100%;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #F15F61;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.container3 p {
+    border: 1px solid black;
+
+}
+
+.subcontainer3 {
+    border: 1px solid black;
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+}
+
+.subcontainer3div {
+    cursor: pointer;
+
+    margin: 10px;
+    width: 142px;
+    height: 180px;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 50px 50px;
+}
+
+.subcontainer3div:hover {
+    box-shadow: 0 4px 8px #F15F61;
+
+}
+
+.subcontainer3div>div {
+    width: 140px;
+    height:auto;    
+}
+
+.paes {
+    text-align: right;
+    color: #F15F61;
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.lanches{
+    text-align: right;
+    color: #F15F61;
+    border: 1px solid black;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+}
+
+.subcontainer3div img {
+    width: 100%;
+}
+
+.nome {
+    /* Pão Francês */
+    text-align: center;
+    width: 79px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 15px;
+    /* identical to box height */
+
+    color: #EC8C32;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.preco {
+    /* R$ 0,50/unid */
+    text-align: center;
+    position: absolute;
+    width: 65px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 12px;
+    color: #000000;
 }
