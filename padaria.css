@@ -4,6 +4,11 @@ body {
     font-family: "Signika Negative", system-ui;
 }
 
+a {
+    text-decoration: none;
+    color: #F15F61;
+}
+
 header {
     height: 60px;
     display: flex;
@@ -13,7 +18,7 @@ header {
 }
 
 header img {
-    width: 150px;
+    width: 200px;
     float: left;
 }
 
@@ -22,6 +27,8 @@ header div {
     font-weight: 800;
     color: #F15F61;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+
 
 }
 
@@ -29,8 +36,8 @@ main {
     /*display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-gap: 10px;*/
-    
-   /* width: 100%;
+
+    /* width: 100%;
     height: max-content;*/
 
     /*Testasndo responsividade*/
@@ -103,10 +110,11 @@ main p {
     width: 1000px;
 }
 
-img {
+picture>img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-top: 20px;
 }
 
 .item {
@@ -160,13 +168,13 @@ img {
 }
 
 .subcontainer3div:hover {
-    box-shadow: 0 4px 8px #F15F61;
+    box-shadow: 0 4px 8px #Fabd8a;
 
 }
 
 .subcontainer3div>div {
     width: 140px;
-    height:auto;    
+    height: auto;
 }
 
 .paes {
@@ -179,7 +187,7 @@ img {
     position: absolute;
 }
 
-.lanches{
+.lanches {
     text-align: right;
     color: #F15F61;
     border: 1px solid black;
@@ -217,4 +225,92 @@ img {
     font-weight: 800;
     font-size: 12px;
     color: #000000;
+}
+
+.limao {
+    cursor: pointer;
+    margin: auto;
+    width: 155px;
+    height: 180px;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 50px 50px;
+    background-color: #F15F61;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.limao img {
+    width: 100%;
+}
+
+.limaonome {
+    /* Torta de Limão */
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #87242D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.banoffee {
+    cursor: pointer;
+    margin: auto;
+    width: 155px;
+    height: 180px;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 50px 50px;
+    background-color: #B4BD64;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.banoffee img {
+    width: 100%;
+}
+
+.banoffeenome {
+    /* Banoffee */
+    font-weight: 700;
+    font-size: 20px;
+    /* identical to box height */
+    text-align: center;
+    color: #EC8C32;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
+
+}
+
+.floresta {
+    cursor: pointer;
+    margin: auto;
+    width: 155px;
+    height: 180px;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 0px 50px 50px;
+    background-color: #F4BD8A;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+}
+
+.floresta img {
+    width: 100%;
+    align-items: center;
+}
+
+.florestanome {
+    /* Floresta Negra */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #F15F61;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.precobolos{
+    text-align:center;
+    font-weight: 800;
+    font-size: 13px;
+    color: #F5F5F5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
