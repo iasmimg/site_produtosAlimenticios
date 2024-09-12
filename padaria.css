@@ -10,6 +10,10 @@ a {
     color: #F15F61;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 
 
 header {
