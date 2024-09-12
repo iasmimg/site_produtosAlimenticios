@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: #F5F5F5;
     font-family: "Signika Negative", system-ui;
-    
+
 }
 
 a {
@@ -96,18 +96,18 @@ picture>img {
 }
 
 .subcontainer3 {
-    position: relative;
+    /*  position: relative;
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: auto;
+    margin: auto;*/
 
-    /* TESTANDO RESPONSIVIDADE
-    display: grid;  
-    grid-gap: 100px;  
+    /* TESTANDO RESPONSIVIDADE*/
+    display: grid;
+    grid-gap: 100px;
     grid-template-columns: repeat(auto-fit, 160px);
-    grid-template-rows: repeat(2, 100px); */
+    grid-template-rows: repeat(2, 100px);
 }
 
 .subcontainer3div {
@@ -161,19 +161,51 @@ picture>img {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.subcontainer4 {
-    position: relative;
+/*.subcontainer4 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-top: 10% 
-}
+    margin-top: 10%;
+} */
 
 .pictureimg {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     margin-top: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; */
+    border: 1px solid black;
+
+}
+
+.pictureimg>img {
+    width: 100%;
+}
+
+.container5 {
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
+.divbolos {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    color: #F15F61;
+    font-family: "Nerko One", cursive;
+    margin-top: 20px;
+}
+
+.textbolos {
+    text-align: center;
+    font-size: 25px;
+    line-height: 20px;
+    color: #000000;
+    width: 78%;
+    margin: auto;
+    padding-bottom: 100px;
+    margin-top: 100px;
 }
 
 .preco {
@@ -186,15 +218,25 @@ picture>img {
     color: #000000;
 }
 
+.lima {
+    display: flex;
+    margin-top: 100px;
+    justify-content: flex-start;
+    padding-bottom: 150px;
+
+}
+
 .limao {
     cursor: pointer;
-    margin: auto;
-    width: 200px;
-    height: 230px;
-    border-radius: 0px 0px 50px 50px;
+    /*width: 200px;
+    height: 230px;8*/
+    border-radius: 0px 100px 100px 0px;
     background-color: #F15F61;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px;
+    width: 500px;
+    height: 184px;
+    background-image: url(img/TortaLima.jpg);
+    background-position: center;
 }
 
 .limao img {
@@ -209,20 +251,72 @@ picture>img {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.torta {
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 200px;
+    font-family: 'Nerko One';
+    font-weight: 400;
+    font-size: 30px;
+    color: #87242D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text {
+    height: 51px;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-left: 100px;
+    width: 300px;
+}
+
+.banoffeetorta {
+    display: flex;
+    margin-top: 100px;
+    justify-content: flex-end;
+    padding-bottom: 150px;
+
+
+}
+
 .banoffee {
     cursor: pointer;
-    margin: auto;
-    width: 200px;
-    height: 230px;
+    width: 500px;
+    height: 184px;
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 100px 0px 0px 100px;
     background-color: #B4BD64;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px;
+    background-image: url(img/TortaBanoffee.jpg);
+    background-position: center;
 }
 
 .banoffee img {
     width: 100%;
+}
+
+.textbanoffee {
+    height: 51px;
+    font-size: 20px;
+    line-height: 17px;
+    text-align: center;
+    color: #000000;
+    margin-right: 100px;
+    width: 300px;
+}
+
+.tortab{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 200px;
+    font-family: 'Nerko One';
+    font-weight: 400;
+    font-size: 30px;
+    color: #87242D;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
 }
 
 .banoffeenome {
@@ -233,16 +327,24 @@ picture>img {
     text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.25);
 }
 
+.bolofloresta {
+    display: flex;
+    margin-top: 100px;
+    padding-bottom: 150px;
+    justify-content: flex-start;
+
+}
+
 .floresta {
     cursor: pointer;
-    margin: auto;
-    width: 200px;
-    height: 230px;
+    width: 500px;
+    height: 184px;
     box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.3);
-    border-radius: 0px 0px 50px 50px;
+    border-radius: 0px 100px 100px 0px;
     background-color: #F4BD8A;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 9px;
+    background-position: center;
+    background-image: url(img/boloFloresta.png);
 }
 
 .floresta img {
