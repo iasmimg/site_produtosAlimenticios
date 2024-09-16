@@ -47,7 +47,7 @@ revelar.reveal('.efeito-esquerda-bolos', {
 })
 
 revelar.reveal('.sobre', {
-    duration: 2000,
+    duration: 1000,
     distance:'30px',
 })
 
