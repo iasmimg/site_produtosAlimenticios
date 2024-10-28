@@ -7,7 +7,7 @@ Avaliação da disciplina de Padrões Web.
 - Seguir o modelo proposto pelo professor;<br>
 - Agrupar os produtos;<br>
 - Adicionar redirecionamento para uma página com a descrição detalhada do produto ao clicar na imagem;<br>
-- Usar bookmarks para redirecionar o cliente para o produto correto.
+- Usar bookmarks para redirecionar o cliente para o produto correto;<br>
 - A adição de outros elementos é permitida ficando a critério da equipe.
 </p>
 
